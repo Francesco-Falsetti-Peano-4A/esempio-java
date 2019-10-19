@@ -31,8 +31,8 @@ public class Calcolo {
     
     public static int calcolo(int b, int h, char c){
         switch(c){
-            case 'p':return 2+(b+h);
-            case 'a': return b+h;
+            case 'p':return (b+h)*2;
+            case 'a': return b*h;
             default:return 0;
             
         }
